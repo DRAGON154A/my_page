@@ -45,16 +45,43 @@ h1
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin: 30px;
 }
 
-#blogue 
+.blogue 
 {
     display: flex;
+    font-size: 30Px;
+    margin: 15px;
 }
 
 #liste
 {
     display: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.757);
+    color: rgba(1, 75, 75);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    width: 100px;
+    color: black;
+}
+#liste a
+{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+#liste a:hover
+{
+    color: blue;
+    background-color: aqua;
+    padding: 10px;
+    transform: translate(5,8);
 }
 
 button img
@@ -69,4 +96,33 @@ button
     background-color: rgba(4, 41, 29, 0.052);
     border: 0;
     right: 20px;
+}
+button :hover
+{
+    background-color: aliceblue;
+}
+
+footer
+{
+    position: relative;
+    height: 100px;
+    padding: 30px;
+    width: 100%;
+    background-color: rgb(1, 75, 75);
+    display: flexbox;
+}
+footer img
+{
+    width: 30px;
+    height: 30px;
+}
+footer a
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+footer a:hover
+{
+    color: white;
 }
