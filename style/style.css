@@ -57,6 +57,10 @@ h1
     margin: 15px;
     font-family: Arial, Helvetica, sans-serif,Impact,'Arial Narrow Bold', sans-serif;
 }
+.blogue #ma_photo
+{
+    text-align: center;
+}
 
 #liste
 {
