@@ -50,7 +50,7 @@ h1
 
 .blogue 
 {
-    display: flex;
+    display:block ;
     font-size: 30Px;
     margin: 15px;
 }
@@ -81,7 +81,7 @@ h1
     color: blue;
     background-color: aqua;
     padding: 10px;
-    transform: translate(5,8);
+    transform: translate(-5,-8);
 }
 
 button img
@@ -121,8 +121,12 @@ footer a
     text-decoration: none;
     font-size: 25px;
     color: black;
+    display:contents  ;
 }
 footer a:hover
 {
     color: white;
+}footer img #github
+{
+   background: rgb(1, 75, 75);
 }
