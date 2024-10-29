@@ -53,8 +53,9 @@ h1
 .blogue 
 {
     display:block ;
-    font-size: 30Px;
+    font-size: 22Px;
     margin: 15px;
+    font-family: Arial, Helvetica, sans-serif,Impact,'Arial Narrow Bold', sans-serif;
 }
 
 #liste
